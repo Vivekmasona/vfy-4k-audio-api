@@ -13,10 +13,6 @@ app.use(express.static(root + "/public"));
 
 const ytmp3 = require('./lib/ytAudio')
 const ytmp4 = require('./lib/ytVideo')
-const ytSearch = require('./lib/ytSearch')
-const ytPlaylist = require('./lib/ytPlaylist')
-const soundcloud = require('./lib/soundcloud')
-const videoInfo = require('./lib/ytVideoInfo')
 
 app.use(ytmp3)
 app.use(ytmp4)
